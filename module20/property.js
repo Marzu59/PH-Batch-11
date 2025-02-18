@@ -16,3 +16,5 @@ const drink ={
 // other option -bracket notaion
 
 console.log(drink['fav place'])
+
+

@@ -18,5 +18,5 @@ const keys = Object.keys(mobile);
 console.log(keys);
 
 for (const ky of keys){
-    console.log(ky,':', mobile[ky]);
+    console.log(ky,':' , mobile[ky]);
 }
