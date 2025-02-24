@@ -8,3 +8,4 @@ b = temp;
 
 console.log(a, b)
 
+// ---
