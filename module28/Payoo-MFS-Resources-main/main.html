@@ -42,26 +42,26 @@
                     <h3>Cashout</h3>
 
                 </div>
-                <div  class="box border p-4 border text-center rounded-sm">
+                <div id="pybill-box" class="box border p-4 border text-center rounded-sm">
                     <img class="w-8  mx-auto" src="./Payoo-MFS-Resources-main/assets/money1.png" alt="">
-                    <h3>add money</h3>
+                    <h3>pay bill</h3>
 
                 </div>
 
-                <div  class="box border p-4 border text-center rounded-sm">
+                <div id="transfermoney-box"  class="box border p-4 border text-center rounded-sm">
                     <img class="w-8  mx-auto" src="./Payoo-MFS-Resources-main/assets/bonus1.png" alt="">
-                    <h3>add money</h3>
+                    <h3>transfer money</h3>
 
                 </div>
 
-                <div  class="box border p-4 border text-center rounded-sm">
+                <div id="getbonous-box"  class="box border p-4 border text-center rounded-sm">
                     <img class="w-8  mx-auto" src="./Payoo-MFS-Resources-main/assets/purse1.png" alt="">
-                    <h3>add money</h3>
+                    <h3>get bonous</h3>
 
                 </div>
-                <div  class="box border p-4 border text-center rounded-sm">
+                <div id="transaction-history-box" class="box border p-4 border text-center rounded-sm">
                     <img class="w-8  mx-auto" src="./Payoo-MFS-Resources-main/assets/transaction1.png" alt="">
-                    <h3>add money</h3>
+                    <h3>Transaction histroy</h3>
 
                 </div>
 
@@ -76,7 +76,7 @@
                       <div class="card  w-full max-w-sm shrink-0 shadow-2xl">
                         <div class="card-body">
                             <legend>Select Bank</legend>
-                            <select class="select">
+                            <select id="allbank" class="select">
                                 <option disabled selected>Pick a Mobile Banking</option>
                                 <option value="Nagod">Nagod</option>
                                 <option value="Rocket">Rocket</option>
@@ -91,7 +91,7 @@
                                     <input  id="amount" type="number" class="input" placeholder="type your amount number" required/>
 
                                 <label class="fieldset-label">PIN</label>
-                                <input id="pin-number" type="text" class="input" placeholder="Password" required/>
+                                <input id="pin-number" type="number" class="input" placeholder="Password" required/>
 
 
                                 <div><a class="link link-hover">Forgot password?</a></div>
@@ -123,7 +123,17 @@
             <button id="cashout-btn" class="btn btn-neutral border-none bg-blue-700 mt-4">CashOut</button>
           </fieldset>
         </section>
+      
+        <!-- transactionSection -->
+         <section id="transaction-history">
+            <h1 class="text-center text-3xl font-bold text-orange-800">Transaction History</h1>
 
+            <div id="transaction-container">
+
+            </div>
+
+
+         </section>
 
         </section>
 
@@ -136,5 +146,8 @@
 <script src="./addMoney.js"></script>
 <script src="./toggle.js"></script>
 <script src="./cashout.js"></script>
+<script src="./ulities.js"></script>
+<script src="./transaction.js"></script>
+
 </body>
 </html>
