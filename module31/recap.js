@@ -14,4 +14,4 @@ const change = productss.map(p=>{
 
 })
 
-console.log(change)
+// console.log(change)
