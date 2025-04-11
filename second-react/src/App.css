@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+.usercard{
+  border: solid gold 3px;
+  padding: 5px;
+  background-color: green;
+
+}
