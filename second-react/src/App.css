@@ -46,3 +46,9 @@
   background-color: green;
 
 }
+.postCard{
+  border: solid rgb(95, 93, 81) 3px;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+}
