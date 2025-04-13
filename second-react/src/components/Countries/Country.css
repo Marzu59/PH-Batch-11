@@ -1,0 +1,9 @@
+.country{
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+.country-visted{
+    background-color: goldenrod;
+}
