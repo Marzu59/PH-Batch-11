@@ -22,4 +22,10 @@ const additemtoCardLocalsotrage = (id)=>{
 
 }
 
-export {getCardformloclstorage, additemtoCardLocalsotrage}
+
+const removeFRomlocalstorage =(id)=>{
+    const storedcart = getCardformloclstorage()
+    const remainningcard= storedcart.filter(storedId => storedId !== id)
+    savecardtoloclstorage(remainningcard)
+}
+export {getCardformloclstorage, additemtoCardLocalsotrage,removeFRomlocalstorage}
