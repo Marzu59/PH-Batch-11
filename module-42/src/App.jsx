@@ -46,7 +46,7 @@ function App() {
           <h3>bookmark count :{bookmarkRead.length} </h3>
 
           {
-            bookmarkRead.map(mark=> <p>{mark.title}</p>)
+            bookmarkRead.map(mark=> <p key={mark.id}>  {mark.title}</p>)
           }
         </div>
         
